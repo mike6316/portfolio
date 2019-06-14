@@ -6,34 +6,39 @@ body {
 }
 
 nav {
-    background-color: dimgrey;
     display: flex;
-    height: 3vh;
-    width: 33vw;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 nav ul {
-    padding: 5px;
-    list-style: none;
+    height: 2vw;
+    width: 25vw;
+    margin: 0;
+    padding: 0.5vh;
+    padding-left: 4vh;
+    padding-right: 0;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
     display: block;
-    color: darkgray;
-    font-family: 'asul', sans-serif;
+    color: black;
+    font-family: 'Asul', sans-serif;
+    font-size: 1rem;
     text-transform: uppercase;
-    text-align: center;
 }
 
-@media all and (max-width: 800px) {
-    nav {
-        justify-content: space-around;
-    }
-}
+nav img {
+    position: absolute;
+    height: 2vw;
+    width: auto;
 
-@media all and (max-width: 600px) {
-    nav {
-        flex-flow: column wrap;
-        padding: 0;
-    }
+    top: 0.25vw;
+    left: 74vw;
 }
 
 
@@ -43,26 +48,25 @@ nav ul {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 56.25vw;
-    z-index: 100;
+    height: 100vh;
 }
 
 #navn img {
     height: 5vw;
-    width: 46.3vw;
+    width: 46vw;
     position: absolute;
 
     top: 16vw;
-    left: 25.5vw;
+    left: 27vw;
 }
 
 #eksamen img {
-    height: 5vw;
-    width: 26vw;
+    height: 4vw;
+    width: 25vw;
     position: absolute;
 
     top: 25vw;
-    left: 37vw;
+    left: 38vw;
 }
 
 /*---------Forside Knapper---------*/
@@ -121,6 +125,60 @@ nav ul {
     top: 0;
     left: 25vw;
 }
+
+
+/*-----------Portfolio skærmen--------*/
+#screen_portfolio {
+    background-image: url(billeder/baggrund_portfolio.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+#overskrift img {
+    position: absolute;
+    height: auto;
+    width: 20vw;
+
+    top: 1vw;
+    left: 25vw;
+}
+
+
+#col1 a {
+    position: absolute;
+}
+
+.about {
+    position: absolute;
+    top: 0vw;
+    left: 40vw;
+}
+
+.about a {
+    position: absolute;
+}
+
+#om img {
+    position: absolute;
+    height: 4vw;
+    width: 14vw;
+
+    top: -8vw;
+    left: 3.9vw;
+}
+
+#portfolio_text img {
+    position: absolute;
+    height: 3.5vw;
+    width: 16vw;
+
+    top: -8vw;
+    left: 2.8vw;
+
+}
+
 
 /*-----------MEDIA QUERIES------------*/
 @media only screen and (max-width: 700px) {
