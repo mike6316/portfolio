@@ -28,7 +28,7 @@ nav a {
     display: block;
     color: black;
     font-family: 'Asul', sans-serif;
-    font-size: 1rem;
+    font-size: 1vw;
     text-transform: uppercase;
 }
 
@@ -136,48 +136,96 @@ nav img {
     height: 100vh;
 }
 
-#overskrift img {
+#overskrift {
     position: absolute;
     height: auto;
     width: 20vw;
 
-    top: 1vw;
-    left: 25vw;
+    top: 12vw;
+    left: 17vw;
 }
 
-
-#col1 a {
+#oversigt {
     position: absolute;
+    height: auto;
+    width: 55vw;
+
+    top: 6.5vw;
+    left: 45vw;
 }
 
-.about {
+
+#ramme1 img {
     position: absolute;
-    top: 0vw;
-    left: 40vw;
+    height: 10vw;
+    width: 35vw;
+
+    top: 20vw;
+    left: 10vw;
 }
 
-.about a {
+#ramme2 img {
     position: absolute;
+    height: 10vw;
+    width: 35vw;
+
+    top: 40vw;
+    left: 10vw;
 }
 
-#om img {
+#ramme3 img {
     position: absolute;
-    height: 4vw;
-    width: 14vw;
+    height: 10vw;
+    width: 35vw;
 
-    top: -8vw;
-    left: 3.9vw;
+    top: 20vw;
+    left: 55vw;
 }
 
-#portfolio_text img {
+#ramme4 img {
     position: absolute;
-    height: 3.5vw;
-    width: 16vw;
+    height: 10vw;
+    width: 35vw;
 
-    top: -8vw;
-    left: 2.8vw;
+    top: 40vw;
+    left: 55vw;
+}
+
+.tema img {
+    position: relative;
+    height: 6vw;
+    width: 30vw
+}
+
+#tema1 img {
+    position: absolute;
+
+    top: 22vw;
+    left: 12.5vw;
+}
+
+#tema2 img {
+    position: absolute;
+    top: 42vw;
+    left: 12.5vw;
 
 }
+
+#tema3 img {
+    position: absolute;
+    top: 22vw;
+    left: 57.5vw;
+
+}
+
+#tema4 img {
+    position: absolute;
+
+    top: 42vw;
+    left: 57.5vw;
+}
+
+
 
 
 /*-----------MEDIA QUERIES------------*/
@@ -260,5 +308,41 @@ nav img {
 
         top: -60vw;
         left: 29vw;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        height: 2vw;
+        width: 25vw;
+        margin: 0;
+        padding: 0.5vh;
+        padding-left: 4vh;
+        padding-right: 0;
+        background-color: dimgrey;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        color: black;
+        font-family: 'Asul', sans-serif;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+    }
+
+    nav img {
+        position: absolute;
+        height: 2vw;
+        width: auto;
+
+        top: 0.25vw;
+        left: 74vw;
     }
 }
