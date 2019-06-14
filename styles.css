@@ -43,6 +43,7 @@ nav ul {
     background-size: cover;
     width: 100vw;
     height: 56.25vw;
+    z-index: 100;
 }
 
 #navn {
@@ -60,7 +61,7 @@ nav ul {
     background-image: url(billeder/Eksamen%20%E2%80%9819.png);
     background-repeat: no-repeat;
     height: 10vw;
-    width: 50vh;
+    width: 46vh;
     position: absolute;
 
     top: 20vw;
@@ -76,31 +77,23 @@ nav ul {
     left: 18.5vw;
 }
 
-.portfolio {
-    position: relative;
+.container img {
     height: 12.4vw;
     width: 22vw;
 }
 
-.portfolio img {
+.portfolio a {
     position: absolute;
-    height: 12.4vw;
-    width: 22vw;
 }
 
 .about {
-    height: 12.4vw;
-    width: 22vw;
-    position: relative;
-
+    position: absolute;
+    top: 0vw;
     left: 40vw;
-    top: -12.4vw;
 }
 
-.about img {
+.about a {
     position: absolute;
-    height: 12.4vw;
-    width: 22vw;
 }
 
 
@@ -111,5 +104,36 @@ nav ul {
         width: 100vw;
         height: 115vw;
         background-position: 50% 0%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .container {
+        position: relative;
+        height: 0;
+        width: 0;
+
+        top: 80vw;
+        left: 18.5vw;
+    }
+
+    .container img {
+        height: 12.4vw;
+        width: 22vw;
+    }
+
+    .portfolio a {
+        position: absolute;
+    }
+
+    .about {
+        position: absolute;
+        top: 0vw;
+        left: 40vw;
+    }
+
+    .about a {
+        position: absolute;
     }
 }
