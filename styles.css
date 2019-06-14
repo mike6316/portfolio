@@ -1,0 +1,114 @@
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: dimgrey;
+    display: flex;
+    height: 3vh;
+    width: 33vw;
+    justify-content: space-around;
+}
+
+nav ul {
+    padding: 5px;
+    list-style: none;
+    display: block;
+    color: darkgray;
+    font-family: 'asul', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media all and (max-width: 800px) {
+    nav {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 600px) {
+    nav {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+}
+
+
+/* Forside */
+.screen {
+    background-image: url(billeder/baggrund_forside.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#navn {
+    background-image: url(billeder/Navn_forside.png);
+    background-repeat: no-repeat;
+    height: 10vw;
+    width: 100vh;
+    position: absolute;
+
+    top: 11vw;
+    left: 22.5vw;
+}
+
+#eksamen {
+    background-image: url(billeder/Eksamen%20%E2%80%9819.png);
+    background-repeat: no-repeat;
+    height: 10vw;
+    width: 50vh;
+    position: absolute;
+
+    top: 20vw;
+    left: 37vw;
+}
+
+.container {
+    position: relative;
+    height: 0;
+    width: 0;
+
+    top: 34vw;
+    left: 18.5vw;
+}
+
+.portfolio {
+    height: 12.4vw;
+    width: 22vw;
+}
+
+.portfolio img {
+    position: relative;
+    height: 12.4vw;
+    width: 22vw;
+}
+
+.about {
+    height: 12.4vw;
+    width: 22vw;
+    position: relative;
+
+    left: 40vw;
+    top: -12.4vw;
+}
+
+.about img {
+    position: relative;
+    height: 12.4vw;
+    width: 22vw;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 700px) {
+    .screen {
+        width: 100vw;
+        height: 115vw;
+        background-position: 50% 0%;
+    }
+}
