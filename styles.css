@@ -77,12 +77,13 @@ nav ul {
 }
 
 .portfolio {
+    position: relative;
     height: 12.4vw;
     width: 22vw;
 }
 
 .portfolio img {
-    position: relative;
+    position: absolute;
     height: 12.4vw;
     width: 22vw;
 }
@@ -97,7 +98,7 @@ nav ul {
 }
 
 .about img {
-    position: relative;
+    position: absolute;
     height: 12.4vw;
     width: 22vw;
 }
