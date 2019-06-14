@@ -61,7 +61,7 @@ nav ul {
     background-image: url(billeder/Eksamen%20%E2%80%9819.png);
     background-repeat: no-repeat;
     height: 10vw;
-    width: 46vh;
+    width: 50vh;
     position: absolute;
 
     top: 20vw;
@@ -96,6 +96,15 @@ nav ul {
     position: absolute;
 }
 
+#logo img {
+    position: absolute;
+    width: auto;
+    height: 12vw;
+
+    top: 0;
+    left: 25vw;
+
+}
 
 
 /*MEDIA QUERIES*/
