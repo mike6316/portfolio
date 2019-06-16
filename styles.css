@@ -149,7 +149,7 @@ nav img {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 #overskrift {
@@ -169,8 +169,6 @@ nav img {
     top: 12vw;
     left: 63vw;
 }
-
-
 
 #ramme1 img {
     position: absolute;
@@ -244,7 +242,7 @@ nav img {
 
 
 /*---------Tema 1---------*/
-#container {
+.container_1 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -260,13 +258,26 @@ nav img {
 
 #col_smal {
     margin: 2vw;
-    flex-basis: 40vw;
+    margin-right: 2vw;
+    flex-basis: 42vw;
     background-color: grey;
 }
 
 #col_bred {
-    flex-basis: 49.1vw;
+    flex-basis: 48.1vw;
     margin: 2vw;
+    margin-left: 2vw;
+    margin-right: 0;
+}
+
+#col_1 {
+    flex-basis: 50vw;
+    background-color: grey;
+    margin: 2vw;
+}
+
+#col_2 {
+    flex-basis: 50vw;
 }
 
 
