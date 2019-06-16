@@ -70,9 +70,7 @@ nav img {
 /* Forside */
 .screen {
     background-image: url(billeder/baggrund_forside.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
+    background-size: 100% 100%;
     height: 100vh;
 }
 
@@ -266,17 +264,6 @@ nav img {
 
     top: 1vw;
     left: 20vw;
-
-
-}
-
-#col_smal {
-    margin: 2vw;
-    margin-right: 2vw;
-    flex-basis: 42vw;
-    background-color: grey;
-    top: 0;
-    left: 20vw;
 }
 
 #tilbage {
@@ -291,13 +278,13 @@ nav img {
 
 #tilbage img {
     width: auto;
-    height: 2vw
+    height: 2.5vw;
 }
 
 #col_smal {
     margin: 2.5vw;
     margin-top: 1.5vw;
-    margin-bottom: 1.5vw;
+    margin-bottom: 4.5vw;
     flex-basis: 30vw;
     background-color: grey;
     border-radius: 1vw;
@@ -305,8 +292,10 @@ nav img {
 }
 
 #col_bred {
-    flex-basis: 60vw;
-    margin: 1.5vw;
+    flex-basis: 50vw;
+    margin: 4.5vw;
+    margin-left: 2.5vw;
+    margin-right: 0;
 }
 
 
