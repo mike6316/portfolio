@@ -3,6 +3,23 @@ body {
     max-height: 100%;
     margin: 0;
     padding: 0;
+    background-color: black;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    padding: 1vw;
+}
+
+h1 {
+    font-family: 'asul', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1vw;
 }
 
 nav {
@@ -25,7 +42,6 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    display: block;
     color: black;
     font-family: 'Asul', sans-serif;
     font-size: 1vw;
@@ -148,11 +164,12 @@ nav img {
 #oversigt {
     position: absolute;
     height: auto;
-    width: 55vw;
+    width: 20vw;
 
-    top: 6.5vw;
-    left: 45vw;
+    top: 12vw;
+    left: 63vw;
 }
+
 
 
 #ramme1 img {
@@ -225,6 +242,32 @@ nav img {
     left: 57.5vw;
 }
 
+
+/*---------Tema 1---------*/
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tema1_overskrift {
+    position: relative;
+    height: 10vw;
+    width: 57vw;
+
+    top: 0;
+    left: 20vw;
+}
+
+#col_smal {
+    margin: 2vw;
+    flex-basis: 40vw;
+    background-color: grey;
+}
+
+#col_bred {
+    flex-basis: 49.1vw;
+    margin: 2vw;
+}
 
 
 
