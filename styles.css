@@ -1,9 +1,12 @@
 body {
+    background-image: url(billeder/baggrund_portfolio.png);
+    background-size: 100% 100%;
+    background-repeat: repeat;
     max-width: 100vw;
     max-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: dimgrey;
 }
 
 p {
@@ -21,6 +24,7 @@ h1 {
     margin: 0;
     padding: 1vw;
     text-shadow: 2px 2px 5px black;
+    text-align: center;
 }
 
 nav {
@@ -54,12 +58,12 @@ nav a {
 }
 
 nav img {
-    position: absolute;
+    position: relative;
     height: 2vw;
     width: auto;
 
     top: 0.2vw;
-    left: 73vw;
+    left: 3vw;
 }
 
 
@@ -150,11 +154,9 @@ nav img {
 
 /*-----------Portfolio skærmen--------*/
 #screen_portfolio {
-    background-image: url(billeder/baggrund_portfolio.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
+
 }
 
 #overskrift {
@@ -189,7 +191,7 @@ nav img {
     height: 10vw;
     width: 35vw;
 
-    top: 40vw;
+    top: 36vw;
     left: 10vw;
 }
 
@@ -207,7 +209,7 @@ nav img {
     height: 10vw;
     width: 35vw;
 
-    top: 40vw;
+    top: 36vw;
     left: 55vw;
 }
 
@@ -226,7 +228,7 @@ nav img {
 
 #tema2 img {
     position: absolute;
-    top: 42vw;
+    top: 38vw;
     left: 12.5vw;
 
 }
@@ -241,16 +243,13 @@ nav img {
 #tema4 img {
     position: absolute;
 
-    top: 42vw;
+    top: 38vw;
     left: 57.5vw;
 }
 
 
 /*---------Tema 1---------*/
 .screen_tema {
-    background-image: url(billeder/baggrund_portfolio.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
