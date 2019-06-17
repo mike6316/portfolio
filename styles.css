@@ -79,27 +79,27 @@ nav img {
     width: 46vw;
     position: absolute;
 
-    top: 16vw;
+    top: 11vw;
     left: 27vw;
 }
 
 #eksamen img {
     height: 4vw;
-    width: 25vw;
-    position: absolute;
+    width: 27vw;
+    position: relative;
 
-    top: 25vw;
-    left: 38vw;
+    top: 23.3vw;
+    left: 36.5vw;
 }
 
 /*---------Forside Knapper---------*/
 .container {
     position: relative;
-    height: 0;
-    width: 0;
+    height: auto;
+    width: 62vw;
 
-    top: 34vw;
-    left: 18.5vw;
+    top: 30vw;
+    left: 19.5vw;
 }
 
 .container img {
@@ -158,95 +158,50 @@ nav img {
 }
 
 #overskrift {
-    position: absolute;
+    position: relative;
     height: auto;
     width: 20vw;
 
-    top: 12vw;
-    left: 17vw;
-}
-
-#oversigt {
-    position: absolute;
-    height: auto;
-    width: 20vw;
-
-    top: 12vw;
-    left: 63vw;
-}
-
-#ramme1 img {
-    position: absolute;
-    height: 10vw;
-    width: 35vw;
-
-    top: 20vw;
-    left: 10vw;
-}
-
-#ramme2 img {
-    position: absolute;
-    height: 10vw;
-    width: 35vw;
-
-    top: 36vw;
-    left: 10vw;
-}
-
-#ramme3 img {
-    position: absolute;
-    height: 10vw;
-    width: 35vw;
-
-    top: 20vw;
-    left: 55vw;
-}
-
-#ramme4 img {
-    position: absolute;
-    height: 10vw;
-    width: 35vw;
-
-    top: 36vw;
-    left: 55vw;
+    top: 6vw;
+    left: 39vw;
 }
 
 .tema img {
     position: relative;
-    height: 6vw;
-    width: 30vw
+    height: 12vw;
+    width: 35vw
 }
 
 #tema1 img {
     position: absolute;
 
-    top: 22vw;
-    left: 12.5vw;
+    top: 16vw;
+    left: 11.5vw;
 }
 
 #tema2 img {
     position: absolute;
-    top: 38vw;
-    left: 12.5vw;
+    top: 34vw;
+    left: 11.5vw;
 
 }
 
 #tema3 img {
     position: absolute;
-    top: 22vw;
-    left: 57.5vw;
+    top: 16vw;
+    left: 54.5vw;
 
 }
 
 #tema4 img {
     position: absolute;
 
-    top: 38vw;
-    left: 57.5vw;
+    top: 34vw;
+    left: 54.5vw;
 }
 
 
-/*---------Tema 1---------*/
+/*---------Generelle Tema-regler---------*/
 .screen_tema {
     width: 100%;
     height: 100%;
@@ -255,6 +210,7 @@ nav img {
 .container_1 {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .tema_overskrift {
@@ -284,7 +240,7 @@ nav img {
 #col_smal {
     margin: 2.5vw;
     margin-top: 1.5vw;
-    margin-bottom: 4.5vw;
+    margin-bottom: 1.5vw;
     flex-basis: 30vw;
     background-color: grey;
     border-radius: 1vw;
@@ -293,10 +249,32 @@ nav img {
 
 #col_bred {
     flex-basis: 50vw;
-    margin: 4.5vw;
+    margin: 1.5vw;
     margin-left: 2.5vw;
     margin-right: 0;
 }
+
+#col {
+    flex-basis: 24vw;
+    margin: 1.5vw;
+    margin-left: 1vw;
+}
+
+#col img {
+    height: auto;
+    width: 100%;
+}
+
+#col_text {
+    margin: 2vw;
+    margin-top: 1.7vw;
+    margin-bottom: 2vw;
+    flex-basis: 40vw;
+    background-color: grey;
+    border-radius: 1vw;
+    box-shadow: 0 0 15px 10px #000000;
+}
+
 
 
 
