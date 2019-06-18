@@ -293,6 +293,17 @@ nav img {
     padding: 2vw;
 }
 
+#col_smal ul {
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    list-style: inside;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    padding: 2vw;
+    padding-top: 0;
+}
+
 
 /*-----------MEDIA QUERIES------------*/
 /*-----FORSIDE-----*/
