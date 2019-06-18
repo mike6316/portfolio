@@ -10,12 +10,15 @@ body {
     background-blend-mode: difference;
 }
 
-p {
+p,
+blockquote {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1rem;
     color: white;
     margin: 0;
     padding: 1vw;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
 }
 
 h1 {
@@ -493,6 +496,8 @@ nav img {
         flex-basis: 100vw;
         background-color: grey;
         border-radius: 1vw;
+        margin-left: 4.5vw;
+        margin-right: 2.5vw;
         box-shadow: 0 0 15px 10px #000000;
     }
 

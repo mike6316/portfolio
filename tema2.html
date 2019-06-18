@@ -37,9 +37,19 @@
                 <p>Til mit eget spil brugte jeg CSS til lave animationerne, f.eks.</p>
                 <ul>
                     <li>.hidden {</li>
-                    <li>Opacity: 0;</li>
+                    <li>opacity: 0;</li>
                     <li>}</li>
                 </ul>
+                <p>Men der hvor det hele gik amok, var der hvor vi så skulle få CSS og Javascript til at snakke sammen, og det var virkelig udfordrende. For når du gerne vil have at en bums den forsvinder, når du klikker på den, men kommer til at skrive "Animation-delay" i din CSS, fordi du vil have at den fader ind, men ikke fader ud - så bliver det hele lidt rodet.
+                    Som løsning til dette ville jeg givet Fade_in animationen en længere animation duration, og Fade_out skulle have en duration på nul. <br>
+                    Derefter ville jeg give Pimple_sprite en Eventlistener, at når Animationen Fade_out er færdig, så skal den starte function "restartPimple". Den ville se sådan her ud:<br>
+                    <blockquote><i>
+                            document.querySelector("alle bumserne").addEventListener("animationend", restartBums);
+                        </i></blockquote>
+                    <br>
+                    <p>
+                        Dette er selvfølgelig kun et eksempel, men det ville være sådan, som jeg ville udføre ændringen af mit spil.
+                    </p>
             </div>
             <div class="col_bred">
                 <a href="http://floedefyren.dk/kea/02-animation/02_js/spil/index.html"><img src="billeder/02_animation.PNG" alt="02_amination"></a>
@@ -48,7 +58,7 @@
         <div class="container_2">
             <div class="col_smal">
                 <h1>02.01.04 Assetliste og designdokumentation</h1>
-                <p>Her ses bl.a. et par illustrationer af min brug af flexbox i opgave 01.04.02 - Responsive v2. </p>
+                <p>Når man koder et spil, skal det helst kunne dokumenteres at spillet er dit, og at det er dig som har kodet det. <br> Dette gjorde jeg så ved at tage nogle billeder af de inspirationskilder, som jeg havde - samt hvilke spil, som jeg ville kode ud fra. <br> Her var det bestemt en udfordring for mig, da jeg havde flere forskellige muligheder at vælge ud fra. Jeg kunne hente alle mine assets på nettet med licens, og derfor have alle rettighederne til at bruge dem i mit spil. <br>Men da dette var en kreativ opgave, sammen med en masse kodning - så ville jeg gerne prøve at give mig i kast med at tegne de fleste af mine assets selv. <br> Der var dog et enkelt asset fra opgaven, som jeg ikke har tegnet selv, men jeg har hentet med licensen, da det ville tage en krig at tegne Donald Trumps hoved selv. <br><br> Min asset liste kunne sagtens have været stilet lidt i CSS med Flexbox, så det hele ikke så klodset ud - men det var ikke et krav, at det skulle stiles, kun at skulle placeres i HTML, så derfor blev den ikke pænere end den gjorde. <br><br> Selve designdokumentationen var tegnet simpelt op med brug af inDesign til at lægge det op i Artboards, men man kunne sagtens også have brugt Photoshop til det, men det var mere nemmere at arbejde med inDesign til denne opgave, da mulighederne i inDesign var nemmere tilgængelige.</p>
             </div>
             <div class="col_bred">
                 <img src="billeder/02_animation_2.PNG" alt="01_responsive_01">
@@ -57,13 +67,14 @@
         </div>
         <div class="container_1">
             <div class="col_smal">
-                <h1>02.05.03 Færdig opgave</h1>
-                <p>Her ses bl.a. et par illustrationer af min brug af flexbox i opgave 01.04.02 - Responsive v2. </p>
+                <h1>02.05.03 Færdig opgave (Gruppeopgave)</h1>
+                <p>Til forskel på en solo opgave, så har du i en gruppe opgave en masse gode og dårlige ting. Man er ikke herre over egen tid, men du har ansvaret for at udføre et arbejde for dine gruppekammerater. Her fik vi introduceret et nyt redskab kaldet: Trelloboard, hvor vi så kunne holde styr på hvad vi hver især havde i gang, og hvad vi havde lavet. Hver dag i skolen mødtes vi og afholdte Scrum Meetings, hvor vores Scrum-master opsummerede kort hvad der var lavet dagen forinden, og hvad dagens opgave skulle gå på. Dette sikrede at alle var in-sync med hinanden, og alle vidste hvad de skulle lave.</p>
+                <p>Dog er alle opgaver ikke lige nemme, og det var her at vi dagen før opgaven skulle afleveres, var nødsaget til at slette hele opgaven, og starte forfra, da al vores animationskode var skrevet galt, og en masse HTML struktur var ændret, så CSS kunne ikke finde de Div'er, som vi tidligere have henvist til. <br> Det var her, at 2 medlemmer valgte at starte forfra, og renskrive det - hvilket var super effektivt, ift. at skulle lede efter hver enkelt fejl og måske ikke finde dem alle.</p>
+                <p>Scrum Meetings var gode at arbejde med, for at sikre at alle var med, men det er ikke i alle grupper, at Scrum meetings behøves. Dette fandt jeg ud af senere på semesteret under Tema 4 - Grundlæggende UX.</p>
             </div>
             <div class="col_bred">
                 <img src="billeder/02_animation_4.PNG" alt="01_responsive_01">
             </div>
-
         </div>
 
 
