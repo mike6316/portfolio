@@ -44,6 +44,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    list-style: none;
     border-radius: 0vw 0vw 0vw 1vw;
     box-shadow: 0 0 15px 10px #000000;
 }
@@ -55,7 +56,6 @@ nav a {
     font-weight: 700;
     font-size: 1.1rem;
     text-transform: uppercase;
-    text-shadow: 1 1 15px 10px grey;
 }
 
 nav img {
@@ -215,7 +215,7 @@ nav img {
     height: 2.5vw;
 }
 
-#col_smal {
+.col_smal {
     margin: 2.5vw;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
@@ -225,25 +225,25 @@ nav img {
     box-shadow: 0 0 15px 10px #000000;
 }
 
-#col_bred {
+.col_bred {
     flex-basis: 50vw;
     margin: 1.5vw;
     margin-left: 2.5vw;
     margin-right: 0;
 }
 
-#col {
+.col {
     flex-basis: 24vw;
     margin: 1.5vw;
     margin-left: 1vw;
 }
 
-#col img {
+.col img {
     height: auto;
     width: 100%;
 }
 
-#col_text {
+.col_text {
     margin: 2vw;
     margin-top: 1.7vw;
     margin-bottom: 2vw;
@@ -265,7 +265,7 @@ nav img {
     left: 25vw;
 }
 
-#col_om {
+.col_om {
     flex-basis: 34vw;
     background-color: grey;
     margin: 1.5vw;
@@ -275,7 +275,7 @@ nav img {
     box-shadow: 0 0 15px 10px #000000;
 }
 
-#col_img {
+.col_img {
     flex-basis: 30vw;
     margin: 1.5vw;
     margin-left: 3.5vw;
@@ -283,7 +283,7 @@ nav img {
 
 }
 
-#col_om ul {
+.col_om ul {
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
     list-style: none;
@@ -293,17 +293,21 @@ nav img {
     padding: 2vw;
 }
 
-#col_smal ul {
+.col_smal ul {
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
-    list-style: inside;
+    list-style: none;
     font-size: 1rem;
     color: white;
     margin: 0;
     padding: 2vw;
     padding-top: 0;
+    padding-bottom: 0;
 }
 
+.col_smal .tema1 {
+    list-style: inside;
+}
 
 /*-----------MEDIA QUERIES------------*/
 /*-----FORSIDE-----*/
@@ -388,11 +392,11 @@ nav img {
         height: 3vw;
         width: auto;
 
-        top: 0..25vw;
+        top: 0.25vw;
         left: 7vw;
     }
 
-    /*------PORTFOLIO SKÆRMEN-----*/
+    /*------PORTFOLIO SCREEN-----*/
     #overskrift {
         position: relative;
         height: auto;
@@ -485,7 +489,7 @@ nav img {
         height: 6.5vw;
     }
 
-    #col_smal {
+    .col_smal {
         flex-basis: 100vw;
         background-color: grey;
         border-radius: 1vw;
@@ -493,23 +497,23 @@ nav img {
     }
 
 
-    #col_bred img {
+    .col_bred img {
         width: 91vw;
         margin: 1.5vw;
     }
 
-    #col {
+    .col {
         flex-basis: 40vw;
         margin: 1.5vw;
         margin-left: 1vw;
     }
 
-    #col img {
+    .col img {
         height: auto;
         width: 100%;
     }
 
-    #col_text {
+    .col_text {
         margin: 2vw;
         margin-top: 1.7vw;
         margin-bottom: 2vw;
@@ -536,7 +540,7 @@ nav img {
         height: 10vw;
     }
 
-    #col_om {
+    .col_om {
         flex-basis: 88vw;
         background-color: grey;
         margin: 1.5vw;
@@ -547,7 +551,7 @@ nav img {
         padding: 3vw;
     }
 
-    #col_img img {
+    .col_img img {
         height: auto;
         width: 88vw;
         margin: 1.5vw;
@@ -556,7 +560,7 @@ nav img {
 
     }
 
-    #col_om ul {
+    .col_om ul {
         font-family: 'Titillium Web', sans-serif;
         list-style: none;
         text-align: center;

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema 1 - Grundlæggende Webdesign</title>
-    <link href="https://fonts.googleapis.com/css?family=Asul|Damion|Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asul%7CTitillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -20,9 +20,9 @@
             <nav>
                 <img src="billeder/logo.png" alt="logo">
                 <ul>
-                    <a href="index.html">Forside</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="about.html">Om mig</a>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">Om mig</a></li>
                 </ul>
             </nav>
         </header>
@@ -33,7 +33,7 @@
 
 
         <div class="container_1">
-            <div id="col_smal">
+            <div class="col_smal">
                 <h1>01.04.02 - Responsive Site v2</h1>
                 <p>I tema 1, Grundlæggende Webdesign fik jeg smidt en masse nyt info i hovedet, bl.a. grundlæggende brug af HTML og CSS. Det var her at vi fik til opgave at lave en responsiv hjemmeside baseret på en stilart, som vi havde fået tildelt. <p> I opgave 01.04.02 brugte jeg helt basal HTML struktur med classes og ID'er til at kunne smide det i CSS, hvor jeg derefter arbejdede med Flexbox. Dette gjorde, at jeg kunne justere kolonnernes forholdstal, altså hvor stort er kolonne X ift. kolonne Y. <br>
                         Dette var en super fed egenskab at bruge, da det her giver en god struktur, ift. hvis billederne og tekst skulle lægges uden brug af flexbox - hvilket ville være en lang HTML side med billede og tekst.</p>
@@ -41,32 +41,32 @@
                     </p>
                     <p>Dette gør at det opdeler opgaverne, illustrationerne fra stilen på portfolio-siden, så man tydeligt kan se at der er forskel mellem dem.</p>
             </div>
-            <div id="col_bred">
+            <div class="col_bred">
                 <a href="http://floedefyren.dk/kea/01-web/04-responsive/01_04_02_responsive_site_v2"><img src="billeder/01_responsive.PNG" alt="01_tema"></a>
             </div>
         </div>
         <div class="container_2">
-            <div id="col_smal">
+            <div class="col_smal">
                 <h1>Illustration - Flexbox</h1>
                 <p>Hvis man spurgte mig, om jeg har rykket mig når det kommer til kodning, samt brug af Flexbox - så ville jeg lyve hvis jeg sagde nej. <br> I denne opgave brugte jeg 3 div'er. En Div til samle hele indholdet, kaldet: Container, og de sidste to div'er til at separere dem. Derefter brugte jeg CSS til dele dem i forholdstal, og satte noget margin på. Dette gav det hele lidt plads, samt bestemte at tekst og billede skulle fylde ca. 50 % af Containeren - så det hele blev struktureret at se på.</p>
                 <p>Og skal jeg reflektere til over det kodningsmæssige i den her opgave, så kunne jeg godt bruge lidt mere til at sørge for at opgaven så pænere ud ift. Flexbox, samt sørge for at der var bedre afstand mellem billede og tekst, et eksempel på dette, kan ses i illustrationen nedenunder.</p>
             </div>
-            <div id="col_bred">
+            <div class="col_bred">
                 <img src="billeder/01_responsive_1.PNG" alt="01_responsive_01">
             </div>
         </div>
         <div class="container_1">
-            <div id="col_smal">
+            <div class="col_smal">
                 <h1>Illustration - Designmæssige valg</h1>
                 <p>Til opgave 01.04.02 fik jeg tildelt stilarten: Swiss Style. Dette var en helt ny stil for mig, og blev derfor en stor udfordring for mig at lave en responsiv side omkring. <br> Dog fik jeg alligevel brugt Swiss Style's hovedprincipper:</p>
                 <ul>
-                    <li>Alle farver gælder, kun fantasien sætter grænser</li>
-                    <li>Overskrifter og underoverskrifter behøver ikke at starte med stort</li>
-                    <li>At sætte det hele i geometrisk orden, så det giver semantisk mening</li>
+                    <li class="tema1">Alle farver gælder, kun fantasien sætter grænser</li>
+                    <li class="tema1">Overskrifter og underoverskrifter behøver ikke at starte med stort</li>
+                    <li class="tema1">At sætte det hele i geometrisk orden, så det giver semantisk mening</li>
                 </ul>
                 <p>Som nævnt tidligere i opgaven, så kunne der godt have været mere plads mellem billeder og tekst i øvre og nedre kolonne, hvilket ville have gjort at det ikke så rodet ud.</p>
             </div>
-            <div id="col_bred">
+            <div class="col_bred">
                 <img src="billeder/01_responsive_2.PNG" alt="01_responsive_01">
             </div>
         </div>
